@@ -290,10 +290,10 @@ CAR_INFO: Dict[str, Optional[Union[HyundaiCarInfo, List[HyundaiCarInfo]]]] = {
   CAR.KIA_STINGER_2022: HyundaiCarInfo("Kia Stinger 2022", "All", car_parts=CarParts.common([CarHarness.hyundai_k])),
   CAR.KONA_2ND_GEN: {
     (Ecu.fwdRadar, 0x7d0, None): [
-      b'\xf1\x00PENDING',
+      b'\xf1\x00SX2_ RDR -----      1.00 1.02 99110-BE000         ',
     ],
     (Ecu.fwdCamera, 0x7c4, None): [
-      b'\xf1\x00PENDING',
+      b'\xf1\x00SX2 MFC  AT USA LHD 1.00 1.03 99211-BE000 230517',
     ],
   },
   CAR.KIA_CEED: HyundaiCarInfo("Kia Ceed 2019", car_parts=CarParts.common([CarHarness.hyundai_e])),
