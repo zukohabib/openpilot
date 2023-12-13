@@ -1,4 +1,4 @@
-# ruff: noqa: E501
+kop# ruff: noqa: E501
 import re
 from dataclasses import dataclass
 from enum import Enum, IntFlag, StrEnum
@@ -96,6 +96,7 @@ class CAR(StrEnum):
   IONIQ_PHEV_2019 = "HYUNDAI IONIQ PLUG-IN HYBRID 2019"
   IONIQ_PHEV = "HYUNDAI IONIQ PHEV 2020"
   KONA = "HYUNDAI KONA 2020"
+  KONA_2ND_GEN = "HYUNDAI KONA 2ND GEN"
   KONA_NON_SCC = "HYUNDAI KONA 2019 NON-SCC"
   KONA_EV = "HYUNDAI KONA ELECTRIC 2019"
   KONA_EV_2022 = "HYUNDAI KONA ELECTRIC 2022"
