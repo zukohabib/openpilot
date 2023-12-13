@@ -1,4 +1,4 @@
-kop# ruff: noqa: E501
+# ruff: noqa: E501
 import re
 from dataclasses import dataclass
 from enum import Enum, IntFlag, StrEnum
